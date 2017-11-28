@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Football Trivia</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">   
+</head>
+
+<body>
+    <h1 class='mainTitle'>Football Trivia</h1>
+    <header>
+        <img src='assets/images/football-header-1.png' width='100%'>
+    </header>
+    <div class='container'>
+        <button class='btn btn-primary' id='startBtn'>Start</button>
+        <!-- Questions -->
+        <div id=timeLeft></div>
+        <div id=currentQuestion></div>
+        <div class='question'></div>
+        <div class='answerList'></div>
+        <!-- Answers -->
+        <div id=message></div>
+        <div id=correctedAnswer></div>
+        <!-- Scoreboard at the end -->
+        <div id=finalMessage></div>
+        <div id=correctAnswers></div>
+        <br>
+        <div id=incorrectAnswers></div>
+        <br>
+        <div id=unanswered></div>
+        <br>
+        <div id='startOverBtn'></div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
